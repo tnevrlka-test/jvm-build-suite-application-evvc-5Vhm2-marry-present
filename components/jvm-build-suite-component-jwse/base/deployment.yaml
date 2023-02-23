@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-jwse
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:3c1ff64736d14818b79953ed94050fe8
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:007ab0330f28cc4a71ada3088d05c401031dbe05946e9af9a74c577b12fde6df
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
